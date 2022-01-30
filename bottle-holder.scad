@@ -22,11 +22,11 @@ bottle_dia = 80;
 // generic 330 mL standard soda can well
 well_dia_top = 67;  
 well_dia_bottom = 66;
-well_depth = 50;
+well_depth = 38;
 
 cup_od = bottle_dia + wall_thickness * 2;
 cup_id = bottle_dia + .125 * inch;
-cup_depth = bottle_dia/2;  
+cup_depth = bottle_dia*.6;  
 
 joint_height = (cup_od - well_dia_top)/2;
 
